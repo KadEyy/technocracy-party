@@ -71,7 +71,7 @@ module.exports = {
                 exclude: /\.module\.scss$/
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
+                test: /\.(pdf|png|svg|jpg|gif|ico)$/,
                 use: [{
                     loader: 'file-loader'
                 }],

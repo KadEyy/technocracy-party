@@ -49,12 +49,6 @@ const CenterText = styled.h1`
     text-shadow: 0 0 5px var(--primaryFont);
 `;
 
-const HeroTitle = styled.h1`
-    margin: 0 auto 10px;
-    font-size: 3em;
-    text-align: center;
-`;
-
 const HomePage: FC = () =>{
 
     const scrollToStart = () => document.getElementById("start")?.scrollIntoView({behavior: 'smooth'});
@@ -66,7 +60,7 @@ const HomePage: FC = () =>{
                     <MoreButton onClick={() => scrollToStart()}/>
                 </PagesCore.Section>
                 <PagesCore.Section id="start" width={'100%'} height={'calc(100vh - 69px)'}>
-                    <HeroTitle>Trochę o nas</HeroTitle>
+                    <PagesCore.SectionTitle>Trochę o nas</PagesCore.SectionTitle>
                     <StartHero items={HeroArray}/>
                 </PagesCore.Section>
             </PagesCore.Content>

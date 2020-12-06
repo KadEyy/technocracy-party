@@ -7,8 +7,8 @@ const NavArray: NavItems[] = [
         external: false
     },
     {
-        name: 'O partii',
-        path: '/o-partii',
+        name: 'O nas',
+        path: '/o-nas',
         external: false
     },
     {
@@ -22,8 +22,8 @@ const NavArray: NavItems[] = [
         external: false
     },
     {
-        name: 'Program PDF',
-        path: '/pobierz',
+        name: 'Program w oknie',
+        path: 'http://partiatechnokraci.online/Program-Partia-Technokratyczna.pdf',
         external: true
     }
 ]

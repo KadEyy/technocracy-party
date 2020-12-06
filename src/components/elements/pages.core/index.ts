@@ -28,3 +28,9 @@ export const Section = styled.div<SectionProps>`
     ${props => props.height ? `min-height: ${props.height};` : ''}
     ${props => props.background ? `background: url("${props.background}");` : ''}
 `;
+
+export const SectionTitle = styled.h1`
+    margin: 0 auto 10px;
+    font-size: 3em;
+    text-align: center;
+`;

@@ -28,7 +28,7 @@ export const Footer: FC = () =>{
     return(
         <FooterCore>
             <Copyrights>
-                Copyright © {year === '2020' ? '2020' : `2020 - ${year}`} | Jakub Mizera {'&'} Debatawka Technoctatic Party
+                Copyright © {year === '2020' ? '2020' : `2020 - ${year}`} | Jakub Mizera {'&'} Debatawka Technocratic Party
             </Copyrights>
             <OpenSource>
                 Open source on <StyledExternal target='_blank' href="https://github.com/KadEyy/technocracy-party">Github</StyledExternal> with 💖!

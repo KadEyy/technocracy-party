@@ -10,7 +10,7 @@ const HeroArray: CloudItems[] = [
         secondary: true
     },
     {
-        content: 'Może interesuje cię co mamy na celu? Ok, o tym też mogę opowiedzieć. Przede wszystkim naszą pierwszą zasadą jest merytoryka, nie wymyślamy sobie rozwiązań ot tak mając nadzieję że zadziałają. Opieramy się na faktach, patrzymy na statystyki i wyciągamy z nich wnioski. Jeśli lubisz takie podejście i chcesz dowiedzieć się czegoś więcej to zapraszam do pozostałych zakładek. Miłego dnia!',
+        content: 'Może interesuje cię co mamy na celu? Przede wszystkim naszą pierwszą zasadą jest merytoryka, nie wymyślamy sobie rozwiązań ot tak mając nadzieję że zadziałają. Opieramy się na faktach, patrzymy na statystyki i wyciągamy z nich wnioski. Jeśli lubisz takie podejście i chcesz dowiedzieć się czegoś więcej to zapraszam do pozostałych zakładek. Miłego dnia btw!',
         secondary: false
     }
 ];
